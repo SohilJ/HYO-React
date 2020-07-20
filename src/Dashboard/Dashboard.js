@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+import Footer from '../Footer/Footer'
+
 export default class Dashboard extends Component {
 
 
@@ -79,7 +81,7 @@ export default class Dashboard extends Component {
                     </div>
 
 
-
+                    <Footer />
 
 
                     <script src="vendor/jquery/jquery.min.js"></script>

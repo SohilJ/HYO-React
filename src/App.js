@@ -7,7 +7,6 @@ import Navbar from './NavBar/Navbar.js'
 import Dashboard from './Dashboard/Dashboard.js'
 import About from './About/About.js'
 import Login from './Account/Login.js'
-import Footer from './Footer/Footer.js'
 
 
 
@@ -19,7 +18,6 @@ function App() {
         <Route exact path="/" component={Dashboard} />
         <Route exact path="/about" component={About} />
         <Route exact path="/login" component={Login} />
-        <Footer />
       </BrowserRouter>
     </div>
   );
