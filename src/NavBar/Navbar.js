@@ -26,16 +26,16 @@ export default function Navbar() {
                                 </li>
                             </Link>
 
-
-                            <Link to="/about">
+                            <Link to="/shopping">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#">Shopping</a>
                                 </li>
                             </Link>
 
+
                             <Link to="/login">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">LogIn</a>
+                                    <a class="nav-link" href="#">Account</a>
                                 </li>
                             </Link>
 
