@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <div>
+
             <footer class="py-5 bg-dark">
                 <div class="container">
                     
@@ -15,6 +16,7 @@ export default function Footer() {
                                 </li>
                             </Link>
                     
+
                 </div>
             </footer>
         </div>
