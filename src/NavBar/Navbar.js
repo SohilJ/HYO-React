@@ -5,39 +5,45 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <div class="container">
-                    <Link to="/">
-                        <a class="navbar-brand" href="#">Pantry App</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div className="container">
+                    <Link to="/" className="navbar-brand">
+                        Pantry App
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
                     </Link>
 
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-
-                            <Link to="/">
-
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Dashboard
-                                         <span class="sr-only">(current)</span>
-                                    </a>
-                                </li>
-                            </Link>
+                    <div className="collapse navbar-collapse" id="navbarResponsive">
+                        <ul className="navbar-nav ml-auto">
 
 
-                            <Link to="/about">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                            </Link>
 
-                            <Link to="/login">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">LogIn</a>
-                                </li>
-                            </Link>
+                            <li className="nav-item active">
+                                <Link to="/" className="nav-link">
+                                    Dashboard
+                                         <span className="sr-only">(current)</span>
+
+                                </Link>
+                            </li>
+
+
+
+
+                            <li className="nav-item">
+                                <Link to="/about" className="nav-link">
+                                    About
+                                </Link>
+                            </li>
+
+
+
+                            <li className="nav-item">
+                                <Link to="/login" className="nav-link">
+                                    Login
+                                </Link>
+                            </li>
+
 
 
                         </ul>
